@@ -1,2 +1,1 @@
-# admin-pacientes
-Administrador de Pacientes en Vue JS
+Clase 70.- El proyecto que vamos a construir
