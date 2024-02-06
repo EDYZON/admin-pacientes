@@ -1,8 +1,15 @@
-Clase 70.- El proyecto que vamos a construir
-Clase 71.- Creando el proyecto
-Clase 72.- Configurando Tailwind css
+#Clase 70.- El proyecto que vamos a construir
+
+#Clase 71.- Creando el proyecto
+
+#Clase 72.- Configurando Tailwind css
 - Se ejecuta npm install -D tailwindcss postcss autoprefixer
 - Se ejecuta npx tailwindcss init -p 
-clase 73.- Primeros Pasos con tailwind y el proyecto.
-Clase 74.- Creando el componente para el Formulario
-Clase 75.- Primeros Pasos con el Formulario
+
+#clase 73.- Primeros Pasos con tailwind y el proyecto.
+
+#Clase 74.- Creando el componente para el Formulario
+
+#Clase 75.- Primeros Pasos con el Formulario
+
+#Clase 76.- Finalizando el formulario
