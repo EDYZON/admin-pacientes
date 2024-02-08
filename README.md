@@ -13,3 +13,5 @@
 #Clase 75.- Primeros Pasos con el Formulario
 
 #Clase 76.- Finalizando el formulario
+
+#Clase 77.- Como leer los datos ingresados en los input en vue js.
