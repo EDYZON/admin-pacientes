@@ -15,3 +15,5 @@
 #Clase 76.- Finalizando el formulario
 
 #Clase 77.- Como leer los datos ingresados en los input en vue js.
+
+#Clase 78.- Simplificar la lectura de un input con v-model
