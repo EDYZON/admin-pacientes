@@ -23,3 +23,5 @@
 #Clase 80.- Añadiendo el resto de los campos al State
 
 #Clase 81.- Submit de Formularios y Event Modifiers
+
+#Clase 82.- Validando Formularios en Vue JS
