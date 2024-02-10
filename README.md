@@ -17,3 +17,5 @@
 #Clase 77.- Como leer los datos ingresados en los input en vue js.
 
 #Clase 78.- Simplificar la lectura de un input con v-model
+
+#Clase 79.- Colocando los datos ingresados en el state
