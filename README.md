@@ -27,3 +27,5 @@
 #Clase 82.- Validando Formularios en Vue JS
 
 #Clase 83.- Creando un state de alertas para mensajes de error.
+
+#Clase 84.- Creando un componente para mostrar alertas.
