@@ -25,3 +25,5 @@
 #Clase 81.- Submit de Formularios y Event Modifiers
 
 #Clase 82.- Validando Formularios en Vue JS
+
+#Clase 83.- Creando un state de alertas para mensajes de error.
