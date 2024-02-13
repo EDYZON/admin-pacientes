@@ -18,7 +18,7 @@ const paciente = reactive({
 const validar = ()=>{
     if(Object.values(paciente).includes("")){
          alerta.mensaje = 'Todos los campos son obligatorios'
-         alerta.tipo = error
+         alerta.tipo =  'error'
         return
     }
     console.log('agregando....')

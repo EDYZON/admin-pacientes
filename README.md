@@ -29,3 +29,5 @@
 #Clase 83.- Creando un state de alertas para mensajes de error.
 
 #Clase 84.- Creando un componente para mostrar alertas.
+
+#Clase 85.- Añadiendo Dinamismo a nuestra alerta
