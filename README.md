@@ -34,4 +34,6 @@
 
 #Clase 86.- Primeros pasos con el listado de pacientes.
 
-#Clase 87.- Recomendaciones para manejar el state en tus proyectos..
+#Clase 87.- Recomendaciones para manejar el state en tus proyectos.
+
+#Clase 88.- Actualizar el state desde el formulario en otro componente.

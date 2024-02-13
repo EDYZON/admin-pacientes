@@ -8,6 +8,15 @@ const alerta = reactive({
 })
 
 
+defineEmits(['update:nombre'])
+const props = defineProps({
+    nombre:{
+        type: String,
+        required: true
+    }
+})
+
+
 
 const validar = ()=>{
     if(Object.values(paciente).includes("")){
@@ -38,6 +47,7 @@ const validar = ()=>{
         @submit.prevent="validar"
         >
             <div class="mb-5">
+                {{ nombre }}
                 <label for="mascota"
                 class="block text-gray-700 uppercase font-bold"
                 >
@@ -48,6 +58,7 @@ const validar = ()=>{
                 type="text"
                 placeholder="Nombre de la mascota"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+                @input="$emit('update:nombre',$event.target.value)"
                 >
             </div>
 
