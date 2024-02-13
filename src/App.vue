@@ -1,16 +1,28 @@
 <script setup>
-import { ref } from 'vue';
+import { ref , reactive } from 'vue';
 import Header from './components/Header.vue'
 import Formulario from './components/Formulario.vue';
 
 const pacientes = ref([])
+const paciente = reactive({
+    nombre:'',
+    propietario:'',
+    email:'',
+    alta:'',
+    sintomas:''
+})
 </script>
 
 <template>
   <div class="container mx-auto mt-20">
       <Header />
       <div class="mt-12 md:flex">
-         <Formulario />
+         <Formulario 
+         v-model:nombre="paciente.nombre"
+         v-model:email="paciente.email"
+         v-model:paciente="paciente.alta"
+         v-model:sintomas="paciente.sintomas"
+         />
          <div class="md:w-1/2 md:h-screen overflow-y-scroll">
             <h3 class="font-black text-3xl text-center">
               Administra tus paciente

@@ -7,13 +7,7 @@ const alerta = reactive({
  mensaje: ''
 })
 
-const paciente = reactive({
-    nombre:'',
-    propietario:'',
-    email:'',
-    alta:'',
-    sintomas:''
-})
+
 
 const validar = ()=>{
     if(Object.values(paciente).includes("")){
@@ -54,7 +48,6 @@ const validar = ()=>{
                 type="text"
                 placeholder="Nombre de la mascota"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
-                v-model="paciente.nombre"
                 >
             </div>
 
@@ -69,7 +62,6 @@ const validar = ()=>{
                 type="text"
                 placeholder="Nombre del propietario"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
-                v-model="paciente.propietario"
                 >
             </div>
 
@@ -84,7 +76,6 @@ const validar = ()=>{
                 type="text"
                 placeholder="Email del propietario"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
-                v-model="paciente.email"
                 >
             </div>
 
@@ -98,7 +89,6 @@ const validar = ()=>{
                 id="alta" 
                 type="date"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
-                v-model="paciente.alta"
                 >
             </div>  
 
@@ -112,7 +102,6 @@ const validar = ()=>{
                 id="sintomas" 
                 placeholder="Describe los sintomas"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md h-40"
-                v-model="paciente.sintomas"
                 />
             </div>
             

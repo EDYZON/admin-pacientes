@@ -33,3 +33,5 @@
 #Clase 85.- Añadiendo Dinamismo a nuestra alerta
 
 #Clase 86.- Primeros pasos con el listado de pacientes.
+
+#Clase 87.- Recomendaciones para manejar el state en tus proyectos.
