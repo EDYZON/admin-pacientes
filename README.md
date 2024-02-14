@@ -37,3 +37,5 @@
 #Clase 87.- Recomendaciones para manejar el state en tus proyectos.
 
 #Clase 88.- Actualizar el state desde el formulario en otro componente.
+
+#Clase 89.- Leer y validar los datos ingresados desde el componente hijo.

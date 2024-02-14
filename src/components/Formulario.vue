@@ -8,9 +8,26 @@ const alerta = reactive({
 })
 
 
-defineEmits(['update:nombre'])
+defineEmits(['update:nombre','update:propietario','update:email','update:alta',
+'update:sintomas'])
 const props = defineProps({
     nombre:{
+        type: String,
+        required: true
+    },
+    propietario:{
+        type: String,
+        required: true
+    },
+    email:{
+        type: String,
+        required: true
+    },
+    alta:{
+        type: String,
+        required: true
+    },
+    sintomas:{
         type: String,
         required: true
     }
@@ -19,7 +36,7 @@ const props = defineProps({
 
 
 const validar = ()=>{
-    if(Object.values(paciente).includes("")){
+    if(Object.values(props).includes("")){
          alerta.mensaje = 'Todos los campos son obligatorios'
          alerta.tipo =  'error'
         return
@@ -58,6 +75,7 @@ const validar = ()=>{
                 type="text"
                 placeholder="Nombre de la mascota"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+                :value="nombre"
                 @input="$emit('update:nombre',$event.target.value)"
                 >
             </div>
@@ -73,6 +91,8 @@ const validar = ()=>{
                 type="text"
                 placeholder="Nombre del propietario"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+                :value="propietario"
+                @input="$emit('update:propietario',$event.target.value)"
                 >
             </div>
 
@@ -87,6 +107,8 @@ const validar = ()=>{
                 type="text"
                 placeholder="Email del propietario"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+                :value="email"
+                @input="$emit('update:email',$event.target.value)"
                 >
             </div>
 
@@ -100,6 +122,8 @@ const validar = ()=>{
                 id="alta" 
                 type="date"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+                :value="alta"
+                @input="$emit('update:alta',$event.target.value)"
                 >
             </div>  
 
@@ -113,6 +137,8 @@ const validar = ()=>{
                 id="sintomas" 
                 placeholder="Describe los sintomas"
                 class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md h-40"
+                :value="sintomas"
+                @input="$emit('update:sintomas',$event.target.value)"
                 />
             </div>
             
