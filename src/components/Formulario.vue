@@ -42,7 +42,7 @@ const validar = ()=>{
          alerta.tipo =  'error'
         return
     }
-    emit('guardar-paciente',123)
+    emit('guardar-paciente')
 }
 
 </script>
