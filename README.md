@@ -42,10 +42,8 @@
 
 #Clase 90.- Emitir Eventos hacia el padre
 
-<<<<<<< HEAD
-#Clase 91.- Mostrando los pacientes agregados
-=======
 #Clase 91.- Mostrando los Pacientes agregados.
 
 #Clase 92.- Reiniciar el Formulario una vez agregado el paciente.
->>>>>>> ac6b267558c2aceceee271f2e5ecec0152b764a7
+
+#Clase 93.- Mostrar una alerta cuando un paciente es agregado correctamente.
