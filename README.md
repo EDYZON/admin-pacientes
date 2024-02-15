@@ -41,3 +41,5 @@
 #Clase 89.- Leer y validar los datos ingresados desde el componente hijo.
 
 #Clase 90.- Emitir Eventos hacia el padre
+
+#Clase 91.- Mostrando los pacientes agregados
