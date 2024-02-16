@@ -50,3 +50,5 @@
 
 #Clase 94.- Generando un unico ID para cada Paciente
 -se instalo npm instal uid
+
+#Clase 95.- Editar Pacientes - Identificar el Paciente a Editar
