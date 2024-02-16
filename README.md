@@ -47,3 +47,6 @@
 #Clase 92.- Reiniciar el Formulario una vez agregado el paciente.
 
 #Clase 93.- Mostrar una alerta cuando un paciente es agregado correctamente.
+
+#Clase 94.- Generando un unico ID para cada Paciente
+-se instalo npm instal uid
