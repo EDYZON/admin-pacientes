@@ -55,4 +55,4 @@
 
 #Clase 96.- Editar Pacientes - Llenar el formulario con los datos almacenados
 
-#Clase97.- Detectando si es un paciente nuevo o edición para evitar registros duplicadoss
+#Clase97.- Detectando si es un paciente nuevo o edición para evitar registros duplicados 
