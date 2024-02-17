@@ -40,7 +40,10 @@ const guardarPaciente = () =>{
   })
 
  const actualizarPaciente = (id)=>{
-  console.log('actualizando',id);
+   const pacienteEditar = pacientes.value.filter(paciente => paciente.id === id)[0];
+   Object.assign(
+    paciente,pacienteEditar
+   );
  }
 
 }
@@ -53,7 +56,7 @@ const guardarPaciente = () =>{
          <Formulario 
          v-model:nombre="paciente.nombre"
          v-model:email="paciente.email"
-         v-model:paciente="paciente.alta"
+         v-model:alta="paciente.alta"
          v-model:sintomas="paciente.sintomas"
          @guardar-paciente="guardarPaciente"
          />

@@ -52,3 +52,5 @@
 -se instalo npm instal uid
 
 #Clase 95.- Editar Pacientes - Identificar el Paciente a Editar
+
+#Clase 96.- Editar Pacientes - Llenar el formulario con los datos almacenadoss
