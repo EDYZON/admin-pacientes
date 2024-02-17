@@ -28,15 +28,19 @@ const guardarPaciente = () =>{
       id: uid()
     })
 
-  //otra formas
-  Object.assign(paciente,{
-  nombre : '',
-  propietario : '',
-  email : '',
-  alta : '',
-  sintomas : '',
-  id:null
-  })
+    //otra formas
+    Object.assign(paciente,{
+    nombre : '',
+    propietario : '',
+    email : '',
+    alta : '',
+    sintomas : '',
+    id:null
+    })   
+  }
+
+
+
 
  const actualizarPaciente = (id)=>{
    const pacienteEditar = pacientes.value.filter(paciente => paciente.id === id)[0];
@@ -45,7 +49,11 @@ const guardarPaciente = () =>{
    );
  }
 
-}
+ const eliminarPaciente = (id)=>{
+   pacientes.value = pacientes.value.filter(paciente => paciente.id !== id)
+ }
+
+
 </script>
 
 <template>
@@ -73,6 +81,7 @@ const guardarPaciente = () =>{
                  v-for="paciente in pacientes"
                  :paciente="paciente"
                  @actualizar-paciente="actualizarPaciente"
+                 @eliminar-paciente="eliminarPaciente"
                 />
             </div>
             <p v-else class="mt-10 text-2xl text-center">

@@ -58,3 +58,5 @@
 #Clase97.- Detectando si es un paciente nuevo o edición para evitar registros duplicados 
 
 #Clase 98.- Cambiando la interfaz si es un paciente nuevo o edición
+
+#Clase 99.- Eliminar Pacientes y reto 02
