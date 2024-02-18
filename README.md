@@ -60,3 +60,5 @@
 #Clase 98.- Cambiando la interfaz si es un paciente nuevo o edición
 
 #Clase 99.- Eliminar Pacientes y reto 02
+
+#Clase 100.- Solución reto 2
